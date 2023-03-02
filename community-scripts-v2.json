@@ -3,7 +3,8 @@
         "test-script-bash 1": {
             "description": "my first script",
             "version": "v0.0.1",
-            "shell": "bash"
+            "shell": "bash",
+            "relativeScriptPath": "./scripts/bash/just-an-echo.sh"
         },
         "test-script-bash 2": {
             "description": "my second script",
