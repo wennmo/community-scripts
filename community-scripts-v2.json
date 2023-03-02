@@ -7,25 +7,21 @@
             "shell": "bash",
             "relativeScriptPath": "./scripts/bash/just-an-echo.sh"
         },
-        "test-script-bash 2": {
+        "my-app-count": {
             "author": "wennmo",
-            "description": "my second script",
+            "description": "my app count",
             "version": "v0.0.3",
-            "shell": "bash"
+            "shell": "bash",
+            "relativeScriptPath": "./scripts/bash/my-app-count.sh"
         }
     },
     "powershell": {
-        "test-script-ps 1": {
+        "appCountByUser": {
             "author": "colssonqlik",
-            "description": "my first powershell script",
+            "description": "get the app count for each user",
             "version": "v0.0.1",
-            "shell": "powershell"
-        },
-        "test-script-ps 2": {
-            "author": "colssonqlik",
-            "description": "my second powershell script",
-            "version": "v0.0.10",
-            "shell": "powershell"
+            "shell": "powershell",
+            "relativeScriptPath": "./scripts/powershell/appCountByUser.ps1"
         }
     }
 }
