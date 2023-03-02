@@ -1,0 +1,24 @@
+{
+    "bash": [
+        {
+            "name": "test-script-bash 1",
+            "description": "my first script",
+            "version": "v0.0.1",
+            "shell": "bash"
+        },
+        {
+            "name": "test-script-bash 2",
+            "description": "my second script",
+            "version": "v0.0.3",
+            "shell": "bash"
+        }
+    ],
+    "powershell": [
+        {
+            "name": "test-script-ps 1",
+            "description": "my first powershell script",
+            "version": "v0.0.1",
+            "shell": "powershell"
+        }
+    ]
+}
