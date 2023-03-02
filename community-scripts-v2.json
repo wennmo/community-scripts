@@ -1,12 +1,14 @@
 {
     "bash": {
         "test-script-bash 1": {
+            "author": "wadje44",
             "description": "my first script",
             "version": "v0.0.1",
             "shell": "bash",
             "relativeScriptPath": "./scripts/bash/just-an-echo.sh"
         },
         "test-script-bash 2": {
+            "author": "wennmo",
             "description": "my second script",
             "version": "v0.0.3",
             "shell": "bash"
@@ -14,11 +16,13 @@
     },
     "powershell": {
         "test-script-ps 1": {
+            "author": "colssonqlik",
             "description": "my first powershell script",
             "version": "v0.0.1",
             "shell": "powershell"
         },
         "test-script-ps 2": {
+            "author": "colssonqlik",
             "description": "my second powershell script",
             "version": "v0.0.10",
             "shell": "powershell"
