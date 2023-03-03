@@ -13,18 +13,18 @@
       "shell": "bash",
       "relativeScriptPath": "./scripts/bash/just-an-echo.sh"
     },
-    "my-app-count": {
-      "author": "colsson",
-      "version": "v0.0.3",
-      "description": "my app count",
+    "who-deleted-my-app": {
+      "author": "wennmo",
+      "version": "v0.0.1",
+      "description": "Find the user that deleted an app with id",
       "arguments": [
-        ""
+        "appId"
       ],
       "flags": [
         ""
       ],
       "shell": "bash",
-      "relativeScriptPath": "./scripts/bash/uselessScripts/my-app-count.sh"
+      "relativeScriptPath": "./scripts/bash/who-deleted-my-app.sh"
     }
   },
   "powershell": {
