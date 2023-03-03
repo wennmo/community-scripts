@@ -1,59 +1,55 @@
 {
-    "bash": {
-        "test-script-bash 1": {
-            "author": "wadje44",
-            "description": "echo echo",
-            "version": "v0.0.1",
-            "shell": "bash",
-            "relativeScriptPath": "./scripts/bash/just-an-echo.sh",
-            "arguments": {
-                "args[0]": "string"
-            },
-            "flags": ["-m"]
-        },
-        "my-app-count": {
-            "author": "wennmo",
-            "description": "my app count",
-            "version": "v0.0.3",
-            "shell": "bash",
-            "relativeScriptPath": "./scripts/bash/my-app-count.sh"
-        }
+  "bash": {
+    "just-an-echo": {
+      "author": "wadje44",
+      "version": "v0.0.1",
+      "description": "test script with params",
+      "shell": "bash",
+      "relativeScriptPath": "./scripts/bash/just-an-echo.sh"
     },
-    "powershell": {
-        "appCountByUser": {
-            "author": "colssonqlik",
-            "description": "get the app count for each user",
-            "version": "v0.0.1",
-            "shell": "powershell",
-            "relativeScriptPath": "./scripts/powershell/appCountByUser.ps1"
-        },
-        "paginateAppItems": {
-            "author": "colssonqlik",
-            "description": "get all app items",
-            "version": "v0.0.1",
-            "shell": "powershell",
-            "relativeScriptPath": "./scripts/powershell/paginateAppItems.ps1"
-        },
-        "paginateAppItemsCreatedByUser": {
-            "author": "colssonqlik",
-            "description": "get all app items created by current user",
-            "version": "v0.0.1",
-            "shell": "powershell",
-            "relativeScriptPath": "./scripts/powershell/paginateAppItemsCreatedByUser.ps1"
-        },
-        "paginateSpaces": {
-            "author": "colssonqlik",
-            "description": "get all spaces",
-            "version": "v0.0.1",
-            "shell": "powershell",
-            "relativeScriptPath": "./scripts/powershell/paginateSpaces.ps1"
-        },
-        "paginateLicenseAssignments": {
-            "author": "colssonqlik",
-            "description": "get all license assignments",
-            "version": "v0.0.1",
-            "shell": "powershell",
-            "relativeScriptPath": "./scripts/powershell/paginateLicenseAssignments.ps1"
-        }
+    "my-app-count": {
+      "author": "colsson",
+      "version": "v0.0.3",
+      "description": "my app count",
+      "shell": "bash",
+      "relativeScriptPath": "./scripts/bash/uselessScripts/my-app-count.sh"
     }
+  },
+  "powershell": {
+    "appCountByUser": {
+      "author": "colssonqlik",
+      "version": "v0.0.1",
+      "description": "get the app count for each user",
+      "shell": "powershell",
+      "relativeScriptPath": "./scripts/powershell/appCountByUser.ps1"
+    },
+    "paginateAppItems": {
+      "author": "colssonqlik",
+      "version": "v0.0.1",
+      "description": "get all app items",
+      "shell": "powershell",
+      "relativeScriptPath": "./scripts/powershell/paginateAppItems.ps1"
+    },
+    "paginateAppItemsCreatedByUser": {
+      "author": "colssonqlik",
+      "version": "v0.0.1",
+      "description": "get all app items created by current user",
+      "shell": "powershell",
+      "relativeScriptPath": "./scripts/powershell/paginateAppItemsCreatedByUser.ps1"
+    },
+    "paginateLicenseAssignments": {
+      "author": "colssonqlik",
+      "version": "v0.0.1",
+      "description": "get all license assignments",
+      "shell": "powershell",
+      "relativeScriptPath": "./scripts/powershell/paginateLicenseAssignments.ps1"
+    },
+    "paginateSpaces": {
+      "author": "colssonqlik",
+      "version": "v0.0.1",
+      "description": "get all spaces",
+      "shell": "powershell",
+      "relativeScriptPath": "./scripts/powershell/paginateSpaces.ps1"
+    }
+  }
 }
