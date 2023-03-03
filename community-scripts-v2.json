@@ -5,7 +5,11 @@
             "description": "echo echo",
             "version": "v0.0.1",
             "shell": "bash",
-            "relativeScriptPath": "./scripts/bash/just-an-echo.sh"
+            "relativeScriptPath": "./scripts/bash/just-an-echo.sh",
+            "arguments": {
+                "args[0]": "string"
+            },
+            "flags": ["-m"]
         },
         "my-app-count": {
             "author": "wennmo",
