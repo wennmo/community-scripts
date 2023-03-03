@@ -14,5 +14,5 @@ fi
 
 echo "Checking who deleted app with id: $appId"
 userId=$(qlik audit ls --eventType com.qlik.app.deleted | jq --arg appId $appId -r '.[] | select(.data.id==$appId) | .userId')
-userName=$(qlik user get $userId -v | jq '.name')
+userName=$(qlik user get $userId | jq '.name')
 echo "The app was deleted by user $userName with id $userId"
