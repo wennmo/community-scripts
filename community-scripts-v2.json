@@ -2,7 +2,7 @@
     "bash": {
         "test-script-bash 1": {
             "author": "wadje44",
-            "description": "my first script",
+            "description": "echo echo",
             "version": "v0.0.1",
             "shell": "bash",
             "relativeScriptPath": "./scripts/bash/just-an-echo.sh"

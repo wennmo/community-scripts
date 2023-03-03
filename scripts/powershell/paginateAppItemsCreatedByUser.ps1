@@ -1,3 +1,7 @@
+## Author: colssonqlik
+## Version: v0.0.1
+## Description: get all app items created by current user
+## Shell: powershell
 # Paginate all items created by current user
 # Change the flag to filter by something else, use qlik item ls -h to see the options
 

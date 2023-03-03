@@ -1,4 +1,7 @@
-
+## Author: colssonqlik
+## Version: v0.0.1
+## Description: get the app count for each user
+## Shell: powershell
 $users = qlik user ls --limit=100 | ConvertFrom-Json
 
 $list = New-Object System.Collections.Generic.List[System.Object]

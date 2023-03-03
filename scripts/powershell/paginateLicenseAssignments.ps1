@@ -1,3 +1,7 @@
+## Author: colssonqlik
+## Version: v0.0.1
+## Description: get all license assignments
+## Shell: powershell
 # Paginate all license assignments
 
 $assignments = qlik license assignment ls --raw --limit 10 | ConvertFrom-Json

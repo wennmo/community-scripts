@@ -1,3 +1,7 @@
+## Author: colssonqlik
+## Version: v0.0.1
+## Description: get all spaces
+## Shell: powershell
 # Paginate all spaces
 # Change the flag to filter, use qlik space ls -h to see the options
 
