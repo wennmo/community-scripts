@@ -4,6 +4,12 @@
       "author": "wadje44",
       "version": "v0.0.1",
       "description": "test script with params",
+      "arguments": [
+        "string"
+      ],
+      "flags": [
+        "-m"
+      ],
       "shell": "bash",
       "relativeScriptPath": "./scripts/bash/just-an-echo.sh"
     },
@@ -11,6 +17,12 @@
       "author": "colsson",
       "version": "v0.0.3",
       "description": "my app count",
+      "arguments": [
+        ""
+      ],
+      "flags": [
+        ""
+      ],
       "shell": "bash",
       "relativeScriptPath": "./scripts/bash/uselessScripts/my-app-count.sh"
     }
@@ -20,6 +32,12 @@
       "author": "colssonqlik",
       "version": "v0.0.1",
       "description": "get the app count for each user",
+      "arguments": [
+        ""
+      ],
+      "flags": [
+        ""
+      ],
       "shell": "powershell",
       "relativeScriptPath": "./scripts/powershell/appCountByUser.ps1"
     },
@@ -27,6 +45,12 @@
       "author": "colssonqlik",
       "version": "v0.0.1",
       "description": "get all app items",
+      "arguments": [
+        ""
+      ],
+      "flags": [
+        ""
+      ],
       "shell": "powershell",
       "relativeScriptPath": "./scripts/powershell/paginateAppItems.ps1"
     },
@@ -34,6 +58,12 @@
       "author": "colssonqlik",
       "version": "v0.0.1",
       "description": "get all app items created by current user",
+      "arguments": [
+        ""
+      ],
+      "flags": [
+        ""
+      ],
       "shell": "powershell",
       "relativeScriptPath": "./scripts/powershell/paginateAppItemsCreatedByUser.ps1"
     },
@@ -41,6 +71,12 @@
       "author": "colssonqlik",
       "version": "v0.0.1",
       "description": "get all license assignments",
+      "arguments": [
+        ""
+      ],
+      "flags": [
+        ""
+      ],
       "shell": "powershell",
       "relativeScriptPath": "./scripts/powershell/paginateLicenseAssignments.ps1"
     },
@@ -48,6 +84,12 @@
       "author": "colssonqlik",
       "version": "v0.0.1",
       "description": "get all spaces",
+      "arguments": [
+        ""
+      ],
+      "flags": [
+        ""
+      ],
       "shell": "powershell",
       "relativeScriptPath": "./scripts/powershell/paginateSpaces.ps1"
     }

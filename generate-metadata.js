@@ -7,7 +7,10 @@ const getScriptMetadata = (txt) => {
         const match = new RegExp(`^##\\s*${key}:\\s*(.*)`, 'gm').exec(txt)
         return match?.[1] ?? ''
     }
-    return Object.assign({}, ...['Author', 'Version', 'Description'].map(key => ({ [key.toLowerCase()]: get(key) })))
+    const base = Object.assign({}, ...['Author', 'Version', 'Description'].map(key => ({ [key.toLowerCase()]: get(key) })))
+    const arguments = get('Arguments').split(',')
+    const flags = get('Flags').split(',')
+    return Object.assign({}, base, { arguments, flags })
 }
 
 const getMetadata = (relativeScriptPath) => {

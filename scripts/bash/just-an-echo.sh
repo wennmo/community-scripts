@@ -2,6 +2,8 @@
 ## Author: wadje44
 ## Version: v0.0.1
 ## Description: test script with params
+## Arguments: string
+## Flags: -m
 
 option_mode=false
 args=()
