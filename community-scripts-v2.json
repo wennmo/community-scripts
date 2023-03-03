@@ -20,9 +20,7 @@
       "arguments": [
         "appId"
       ],
-      "flags": [
-        ""
-      ],
+      "flags": [],
       "shell": "bash",
       "relativeScriptPath": "./scripts/bash/who-deleted-my-app.sh"
     }
@@ -32,12 +30,8 @@
       "author": "colssonqlik",
       "version": "v0.0.1",
       "description": "get the app count for each user",
-      "arguments": [
-        ""
-      ],
-      "flags": [
-        ""
-      ],
+      "arguments": [],
+      "flags": [],
       "shell": "powershell",
       "relativeScriptPath": "./scripts/powershell/appCountByUser.ps1"
     },
@@ -45,12 +39,8 @@
       "author": "colssonqlik",
       "version": "v0.0.1",
       "description": "get all app items",
-      "arguments": [
-        ""
-      ],
-      "flags": [
-        ""
-      ],
+      "arguments": [],
+      "flags": [],
       "shell": "powershell",
       "relativeScriptPath": "./scripts/powershell/paginateAppItems.ps1"
     },
@@ -58,12 +48,8 @@
       "author": "colssonqlik",
       "version": "v0.0.1",
       "description": "get all app items created by current user",
-      "arguments": [
-        ""
-      ],
-      "flags": [
-        ""
-      ],
+      "arguments": [],
+      "flags": [],
       "shell": "powershell",
       "relativeScriptPath": "./scripts/powershell/paginateAppItemsCreatedByUser.ps1"
     },
@@ -71,12 +57,8 @@
       "author": "colssonqlik",
       "version": "v0.0.1",
       "description": "get all license assignments",
-      "arguments": [
-        ""
-      ],
-      "flags": [
-        ""
-      ],
+      "arguments": [],
+      "flags": [],
       "shell": "powershell",
       "relativeScriptPath": "./scripts/powershell/paginateLicenseAssignments.ps1"
     },
@@ -84,12 +66,8 @@
       "author": "colssonqlik",
       "version": "v0.0.1",
       "description": "get all spaces",
-      "arguments": [
-        ""
-      ],
-      "flags": [
-        ""
-      ],
+      "arguments": [],
+      "flags": [],
       "shell": "powershell",
       "relativeScriptPath": "./scripts/powershell/paginateSpaces.ps1"
     }
