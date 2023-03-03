@@ -3,7 +3,7 @@
 ## Version: v0.0.1
 ## Description: Find the user that deleted an app with id
 ## Arguments: appId
-## Usage: ./who-deleted-the-app.sh <appId>
+## Usage: ./who-deleted-my-app.sh <appId>
 if [ -z "$1" ]
   then
     echo "No appId supplied"
