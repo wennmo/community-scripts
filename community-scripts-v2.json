@@ -23,12 +23,33 @@
             "shell": "powershell",
             "relativeScriptPath": "./scripts/powershell/appCountByUser.ps1"
         },
-        "paginateItemsCreatedByUser": {
+        "paginateAppItems": {
+            "author": "colssonqlik",
+            "description": "get all app items",
+            "version": "v0.0.1",
+            "shell": "powershell",
+            "relativeScriptPath": "./scripts/powershell/paginateAppItems.ps1"
+        },
+        "paginateAppItemsCreatedByUser": {
             "author": "colssonqlik",
             "description": "get all app items created by current user",
             "version": "v0.0.1",
             "shell": "powershell",
             "relativeScriptPath": "./scripts/powershell/paginateAppItemsCreatedByUser.ps1"
+        },
+        "paginateSpaces": {
+            "author": "colssonqlik",
+            "description": "get all spaces",
+            "version": "v0.0.1",
+            "shell": "powershell",
+            "relativeScriptPath": "./scripts/powershell/paginateSpaces.ps1"
+        },
+        "paginateLicenseAssignments": {
+            "author": "colssonqlik",
+            "description": "get all license assignments",
+            "version": "v0.0.1",
+            "shell": "powershell",
+            "relativeScriptPath": "./scripts/powershell/paginateLicenseAssignments.ps1"
         }
     }
 }
