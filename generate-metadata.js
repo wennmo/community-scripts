@@ -8,7 +8,7 @@ const getScriptMetadata = (txt) => {
         return match?.[1] ?? ''
     }
     const base = Object.assign({}, ...['Author', 'Version', 'Description'].map(key => ({ [key.toLowerCase()]: get(key) })))
-    const arguments = get('Arguments').split(',').filter(flag => flag.length)
+    const arguments = get('Arguments').split(',')
     const flags = get('Flags').split(',').filter(flag => flag.length)
     return Object.assign({}, base, { arguments, flags })
 }
